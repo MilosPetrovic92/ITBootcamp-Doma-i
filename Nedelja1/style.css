@@ -14,3 +14,19 @@ body {
     background-color: whitesmoke;
     opacity: 0.6;
 }
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-family: "Lobster Two", cursive;
+    color: rgb(82, 77, 17);
+}
+
+.naslov {
+    padding: 2px;
+    margin: 0 auto;
+    width: 450px;
+    height: 100px;
+    background-color: whitesmoke;
+    opacity: 0.6;
+}
