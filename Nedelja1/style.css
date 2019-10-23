@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://images.pexels.com/photos/247671/pexels-photo-247671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-repeat: no-repeat;
+    background-size: 1400px 650px; /*možda će se menjati na 100%, proveriti kada se doda sadržaj stranice */
+    background-attachment: fixed;
+}
+.omotac {
+    padding: 2px;
+    margin: 0 auto;
+    width: 900px;
+    height: 600px;
+    background-color: whitesmoke;
+    opacity: 0.6;
+}
