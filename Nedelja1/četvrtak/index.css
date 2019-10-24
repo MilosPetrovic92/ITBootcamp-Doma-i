@@ -1,6 +1,6 @@
 body {
     background-image: url("https://cdn.pixabay.com/photo/2016/10/20/18/35/sunrise-1756274_960_720.jpg");
-    background-size: 100%;
+    background-size: 1920px 864px;
 }
 h1 {
     color: blanchedalmond;
@@ -33,7 +33,8 @@ form {
 input[type-text] {
 width: 100%;
 padding: 10px;
-margin: 5px;
+margin: 10px;
+display: inline-block;
 box-sizing: border-box;
 
 }
