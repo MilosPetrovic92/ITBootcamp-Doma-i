@@ -30,15 +30,23 @@ form {
     border-radius: 5px;
 }
 
-input[type-text] {
-width: 100%;
-padding: 10px;
-margin: 10px;
-display: inline-block;
-box-sizing: border-box;
-
+form.a {
+    float: right;
 }
+
 table {
     color: blanchedalmond;
     text-shadow: 8px 4px 10px rgb(226, 55, 55);
+    border: 2px solid rgb(250, 51, 51);
+}
+footer {
+    color: blanchedalmond;
+    text-shadow: 8px 4px 10px rgb(226, 55, 55);
+}
+
+input[type=submit]{
+    color: blanchedalmond;
+    border: 1px solid red;
+    border-radius: 2px;
+    background-color: royalblue;
 }
