@@ -1,0 +1,180 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("https://images.pexels.com/photos/247671/pexels-photo-247671.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: 1400px 650px; /*možda će se menjati na 100%, proveriti kada se doda sadržaj stranice */
+  background-attachment: fixed;
+}
+
+img {
+  height: 200px;
+  float: left;
+  margin: 10px;
+  
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: "Lobster Two", cursive;
+  color: rgb(63, 58, 9);
+}
+
+h3 {
+  text-align: center;
+  font-size: 25px;
+  font-family: "Lobster Two", cursive;
+  color: rgb(63, 58, 9);
+}
+
+p {
+  display: inline;
+  text-align: justify;
+  color: rgb(63, 58, 9);
+  margin: 30px;
+  padding: 5px;
+}
+nav {
+  width: 200px;
+  height: 310px;
+  background-color: whitesmoke;
+  opacity: 0.7;
+  margin-top: 50px;
+  margin-left: 10px;
+  position: fixed;
+  overflow: auto;
+  border-radius: 7px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 200px;
+}
+
+li {
+  color: rgb(63, 58, 9);
+  margin: 0px;
+  list-style-type: none;
+  font-size: 30px;
+  font-family: "Lobster Two", cursive;
+  padding: 10px;
+  text-decoration: none;
+  }
+
+li a {
+  display: block;
+  text-decoration: none;
+}
+li a:visited {
+  color: rgb(73, 60, 87);
+}
+li a:hover {
+  background-color: rgb(83, 32, 26);
+  color: rgb(80, 139, 139);
+}
+li a:active {
+  background-color: rgb(186, 189, 53);
+  color: rgb(173, 33, 33);
+}
+embed {
+  margin: 10px;
+}
+footer {
+  width: 100%;
+  height: 50px;
+}
+.omotac {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 50px;
+  margin-left: 210px;
+  width: 700px;
+  height: 420px;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  text-align: justify;
+  font-family: "Lobster Two", cursive;
+  border-radius: 7px;
+  overflow: auto;
+}
+.drugiomotac {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: 210px;
+  width: 700px;
+  height: 1000px;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  text-align: justify;
+  font-family: "Lobster Two", cursive;
+  border-radius: 7px;
+  overflow: auto;
+}
+.omotac3 {
+  position: absolute;
+  top: 190px;
+  right: 10px;
+  padding: 10px;
+  width: 377px;
+  height: 630px;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  text-align: justify;
+  font-family: "Lobster Two", cursive;
+  float: right;
+  border-radius: 7px;
+  overflow: auto;
+}
+.omotac4 {
+  background-color: whitesmoke;
+  opacity: 0.8;
+}
+.naslov {
+  padding: 2px;
+  margin: 0 auto;
+  width: 450px;
+  height: 100px;
+  background-color: whitesmoke;
+  opacity: 0.8;
+  border-radius: 7px;
+}
+
+.dugme {
+  margin-left: 50px;
+  font-family: "Lobster Two", cursive;
+  font-size: 20px;
+  border: 1px solid black;
+  background-color: coral;
+  border-radius: 6px;
+  box-shadow: 2px 4px 5px 0px rgb(240, 106, 16);
+
+}
+
+.dugme:hover {
+  color: aliceblue;
+  background-color: rgb(68, 68, 247);
+  box-shadow: 2px 4px 5px 0px rgb(114, 144, 243);
+}
+
+.dugme:active{
+  color: rgb(219, 90, 67);
+  background-color: rgb(200, 202, 77);
+  box-shadow: 2px 4px 5px 0px rgb(153, 165, 99);
+}
+.mreze-icon{
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+
+}
+.mreze-icon-last-child {
+  margin: 0px;}
+
+div.galerija {
+  border: 1px solid black; 
+}
