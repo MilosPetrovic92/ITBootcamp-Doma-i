@@ -1,0 +1,57 @@
+body {
+    background-image: url("https://cdn.pixabay.com/photo/2016/10/20/18/35/sunrise-1756274_960_720.jpg");
+    background-size: 1920px 864px;
+}
+h1 {
+    color: blanchedalmond;
+    text-align: center;
+    text-shadow: 8px 4px 10px rgb(226, 55, 55);
+}
+ul {
+    border: 2px solid rgb(250, 51, 51);
+    width: 400px;
+    margin-left: 470px;
+}
+li {
+    color: blanchedalmond;
+    list-style-type: none;
+    margin: 30px;
+    padding: 0px;
+    display: inline;
+}
+
+p{
+    color: blanchedalmond;
+    text-shadow: 8px 4px 10px rgb(226, 55, 55);
+}
+
+form {
+    color: blanchedalmond;
+    text-shadow: 8px 4px 10px rgb(226, 55, 55);
+    border: 2px solid rgb(134, 156, 101);
+    margin: 2px;
+    padding: 4px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+form.a {
+    float: right;
+}
+
+table {
+    color: blanchedalmond;
+    text-shadow: 8px 4px 10px rgb(226, 55, 55);
+    border: 2px solid rgb(250, 51, 51);
+}
+footer {
+    color: blanchedalmond;
+    text-shadow: 8px 4px 10px rgb(226, 55, 55);
+}
+
+input[type=submit]{
+    color: blanchedalmond;
+    border: 1px solid red;
+    border-radius: 2px;
+    background-color: royalblue;
+}
