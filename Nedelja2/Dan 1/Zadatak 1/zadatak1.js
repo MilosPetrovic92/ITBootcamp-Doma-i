@@ -16,5 +16,5 @@ console.log(`Količnik promenljivih a i b je ${deljenje}.`);
 var ostatak=a%b;
 console.log(`Ostatak promenljivih a i b je ${ostatak}.`);
 
-var stepenovanje=a^b;
+var stepenovanje=a**b;
 console.log(`Rezultat stepenovanja promenljivih a i b je ${stepenovanje}.`);
