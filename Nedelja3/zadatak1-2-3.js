@@ -2,15 +2,15 @@
 {
 function najveiBroj(a,b,c){ //naziv funkcije + 
 
-let niz = [5,2,10]; //niz brojeva koji će se proveravati
+let niz = [a,b,c]; //niz brojeva koji će se proveravati
 let najveći=0; //promenljiva koja će ispisati najveći broj
 
-for (i=0; i<=najveći;i++){
+for (i=0; i<niz.length;i++){
     if (niz[i]>najveći) { //ako je broj u nizu koji se dobija uvećavanjem promenljive i veći od najvećeg broja
         najveći=niz[i]; //najveći broj je broj niza koji potiće od i
     }
 }return najveći; //vraća promeljivu najveći
-}console.log(najveiBroj(5,10,2));
+}console.log(najveiBroj(5,70,2));
 }
 
 //Zadatak 2
