@@ -27,15 +27,24 @@ for(let dugme of orderNow){
 function naručiOdmah(brojac){
     console.log(brojac);
     if(brojac<=0)
-        window.alert('GREŠKA!');
-    else
-        window.alert(`Naručili ste ${brojac} pice/a.`);
-    }
-    function logMessageTimeStamp(message){ //prva funkcija je glavna
-        let now=new Date();
-        console.log(`${getTimeFormat(now)} ${message}`);
-    }
-    function getTimeFormat(time){
-        return `[${time.getHours()}:${time.getMinutes()}:${time.getSeconds()}]`; //druga funkcija se učitava u prvu 
-    }
-logMessageTimeStamp(brojac);
+    window.alert('GREŠKA!');
+    
+    else(brojac>0)
+            window.alert(`Naručili ste ${brojac} pice/a.`);
+            alert(logMessageTimeStamp());
+            brojac=0;
+            counter.innerHTML=brojac;
+    
+}
+    
+function logMessageTimeStamp(){ 
+    let today = new Date();
+    let d= today.getDate();
+    let mo=today.getMonth()+1;
+    let y=today.getUTCFullYear();
+    let h = today.getHours();
+    let m = today.getMinutes();
+    let s = today.getSeconds(); 
+    return [ d, mo, y ].join('.')+'.  '+[ h, m, s].join(':')
+  }
+  
